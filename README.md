@@ -14,33 +14,33 @@ For this we have three methods:
  I have used the 3rd method.
 
 install Apache HTTP Server (httpd) on Ubuntu:
-------- $ sudo apt-get update && sudo apt-get install -y apache2
+--> $ sudo apt-get update && sudo apt-get install -y apache2
 
 Check Apache Service Status:
-------- $ sudo systemctl status apache2
+--> $ sudo systemctl status apache2
 
 Clone the Repository:
-------- $ git clone https://github.com/your-username/your-repository.git
+--> $ git clone https://github.com/your-username/your-repository.git
 
 Change your current directory to the cloned repository's directory:
-------- $ cd your-repository
+-->  $ cd your-repository
 
 move all the contents from the folder to “/var/www/html/”
-------- $ sudo mv * /var/www/html/
-------- $ cd /var/www/html
+-->  $ sudo mv * /var/www/html/
+-->  $ cd /var/www/html
 
 Edit the Inbound Rules:
 
 check the status of httpd and then enable & start httpd using the following commands:
 
 Check Apache Service Status:
-------- $ sudo systemctl status apache2
+-->  $ sudo systemctl status apache2
 
 To start Apache if it's not running, you can use the following command:
-------- $ sudo systemctl start apache2
+-->  $ sudo systemctl start apache2
 
 To stop Apache if it's running, you can use the following command:
-------- $ sudo systemctl stop apache2
+-->  $ sudo systemctl stop apache2
 
 
 Now open the public ipv4 address allocated to the EC2 instance we created in new tab. We will be able to see the Portfolio Website.
