@@ -13,6 +13,13 @@ For this we have three methods:
  3. We will directly connect to the VM through the AWS platform
  I have used the 3rd method.
 
+
+create directory: 
+--> $ mkdir directory_name
+
+change your current directory to "directory_name":
+--> $ cd aws_assg3
+
 install Apache HTTP Server (httpd) on Ubuntu:
 --> $ sudo apt-get update && sudo apt-get install -y apache2
 
